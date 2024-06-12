@@ -1,6 +1,6 @@
 # Gemini Explorer
 
-![Gemini]
+
 
 ## Mission Scenario
 Create a user-friendly chat interface using Streamlit that connects with Google's state-of-the-art large language model, Gemini. The goal is to provide an accessible platform for exploring and showcasing the capabilities of advanced language models. This project aims to serve as an educational and practical introduction to integrating large language models with intuitive interfaces.
@@ -30,7 +30,7 @@ Create a user-friendly chat interface using Streamlit that connects with Google'
 - Access the Google Cloud Console.
 - Navigation -> Artificial Intelligence -> Vertex AI -> Enable All Recommended APIs
 
-![Task 1 - Gemini Explorer]
+
 
 ## Task 2: 🧬 Google Cloud Initialization
 
@@ -42,7 +42,7 @@ Create a user-friendly chat interface using Streamlit that connects with Google'
 - Select an existing project or Create a new project
 - Set default compute region and zone (Optional Step)
 
-![Task 2]
+
 
 ## Task 3: ☁️ Setting up Google Gemini
 
@@ -53,17 +53,16 @@ Create a user-friendly chat interface using Streamlit that connects with Google'
 - In the project, we are using Google's Gemini Pro LLM.
 - Use the project ID instead of the project name, like this: `project = "project_id"`. This helps avoid encountering a 403 permission denied error.
 
-![Task 3 - Gemini Explorer]
+
 
 ## Task 4: 📊 Streamlit Integration
 - Implement the steps given in the mission.
 - Run the python file `streamlit run filename.py`.
 
-![Task 4 - Gemini Explorer]
+
 
 ## Task 5: 🗣️ Adding Initial System Messages
-
-![Task 5 - Gemini Explorer]
+- Create 'themes' for the user to choose from (which just changes the intial prompt sent to the model)
 
 ## Task 6: 📄 Preparing Submission
 
